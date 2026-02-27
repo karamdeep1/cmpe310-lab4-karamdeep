@@ -5,9 +5,7 @@ To see the results of this program:
 
 First compile all the files:
 ```
-gcc -c sum_array.s -o sum_array.o
-gcc -c main.c -o main.o
-gcc main.o sum_array.o -o driver
+gcc main.c sum_array.s -o driver
 ```
 
 Next, run the program with the sampled data file:
